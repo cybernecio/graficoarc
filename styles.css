@@ -1,0 +1,23 @@
+/* Estilos CSS para el gráfico */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+#chart-container {
+  margin: 20px;
+}
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: orange;
+}
+#tooltip {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 5px;
+  display: none;
+}
